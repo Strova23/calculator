@@ -7,11 +7,12 @@ function subtract(a, b) {
 }
 
 function multiply(a, b) {
-    return a*b;
+    return (a*b).toFixed(2);
 }
 
 function divide(a, b) {
-    return a/b;
+    if (a/b == "Infinity") return alert("You can't divide by zero");
+    return (a/b).toFixed(2);
 }
 
 function operate(a, b, operator) {
