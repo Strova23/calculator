@@ -27,3 +27,5 @@ function operate(a, b, operator) {
             return a/b;
     }
 }
+
+console.log(operate(1,2, "+"))
